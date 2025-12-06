@@ -19,12 +19,16 @@ The firmware will be updated on every push to the main branch. Just click on the
 Currently my daily driver is a ZSA Moonlander from which i need to transfer the layout into the zmk format.
 
 - [x] Transfer base layer
-- [ ] Transfer navigation layer
-- [ ] Transfer mouse layer
-- [ ] Transfer media layer
-- [ ] Transfer numbers layer
+- [x] Transfer navigation layer
+- [x] Transfer mouse layer
+  - [ ] incorporate mousucontrol into the build
+- [x] Transfer media layer
+- [x] Transfer numbers layer
 - [ ] Transfer symbols layer
-- [ ] Transfer fn keys layer
-- [ ] Transfer umlaute layer
-- [ ] Transfer qwertz layer
-- [ ] Transfer factorio layers
+  - [ ] verify all bindings are correct
+- [x] Transfer fn keys layer
+- [x] Transfer umlaute layer
+- [x] Transfer qwertz layer
+- [x] Transfer factorio layers
+- [ ] Make firmware building succeed again
+- [ ] Make https://nickcoutsos.github.io/keymap-editor/ work again (without) keeping duplicate files
