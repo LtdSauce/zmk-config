@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
-// TODO: does this file need to be in config folder?
 #include "keys_de.h"
 // TODO:
 //  - bootloader keys
@@ -82,10 +81,10 @@
             display-name = "SYMBOL";
             bindings = <
                 // XXX: unverified keymaps just hoped for the best after converting
-                &trans &kp DE_EURO       &kp DE_UNDS       &kp DE_LBRC       &kp DE_RBRC       &kp DE_CIRC /**/ &kp DE_EXLM &kp DE_LESS    &kp DE_MORE &kp DE_EQL &kp DE_AMPR &trans
-                &trans &mt LGUI DE_BSLSH &mt LALT DE_FSLSH &mt LCTRL DE_LBRC &mt LSHFT DE_RBRC &kp DE_ASTR /**/ &kp DE_QST  &mt LSHFT LPAR &mt LCTRL DE_RPAR &mt LALT DE_MINUS &mt LGUI DE_SEMI &trans
-                &trans &kp DE_HASH &mt RALT DE_DLLR &kp DE_PIPE &kp DE_TILD &kp DE_GRV /**/ DE_PLUS &kp DE_PERC &kp DE_DQOT &mt RALT DE_SQT &kp DE_SCLN &trans
-                                                   &kp DE_AT &kp DE_ACUT &kp DE_PARA /**/ &trans &none &none
+                &trans &kp DE_EURO       &kp DE_UNDS       &kp DE_LBRC       &kp DE_RBRC       &kp DE_CIRC /**/ &kp DE_EXCL   &kp DE_LT      &kp DE_GT         &kp DE_EQUAL      &kp DE_AMPS       &trans
+                &trans &mt LGUI DE_BSLSH &mt LALT DE_FSLSH &mt LCTRL DE_LBRC &mt LSHFT DE_RBRC &kp DE_STAR /**/ &kp DE_QMARV  &mt LSHFT LPAR &mt LCTRL DE_RPAR &mt LALT DE_MINUS &mt LGUI DE_COLON &trans
+                &trans &kp DE_HASH &mt RALT DE_DLLR &kp DE_PIPE &kp DE_TILD &kp DE_GRV /**/ &kp DE_PLUS &kp DE_PERC &kp DE_DQT &mt RALT DE_SQT &kp DE_SEMI &trans
+                                                    &kp DE_AT  &kp DE_ACUT &kp DE_PARA /**/ &trans      &none       &none
             >;
         };
 
