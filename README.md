@@ -21,14 +21,14 @@ Currently my daily driver is a ZSA Moonlander from which i need to transfer the 
 - [x] Transfer base layer
 - [x] Transfer navigation layer
 - [x] Transfer mouse layer
-  - [ ] incorporate mousucontrol into the build
+  - [x] incorporate mousecontrol into the build
 - [x] Transfer media layer
 - [x] Transfer numbers layer
-- [ ] Transfer symbols layer
-  - [ ] verify all bindings are correct
+- [x] Transfer symbols layer
+  - [x] verify all bindings are correct
 - [x] Transfer fn keys layer
 - [x] Transfer umlaute layer
 - [x] Transfer qwertz layer
 - [x] Transfer factorio layers
-- [ ] Make firmware building succeed again
-- [ ] Make https://nickcoutsos.github.io/keymap-editor/ work again (without) keeping duplicate files
+- [x] Make firmware building succeed again
+- [x] Make https://nickcoutsos.github.io/keymap-editor/ work again (without) keeping duplicate files
