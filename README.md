@@ -32,3 +32,4 @@ Currently my daily driver is a ZSA Moonlander from which i need to transfer the 
 - [x] Transfer factorio layers
 - [x] Make firmware building succeed again
 - [x] Make https://nickcoutsos.github.io/keymap-editor/ work again (without) keeping duplicate files
+- [ ] Add bt layer switch...
