@@ -21,6 +21,11 @@ This layout is highly influenced by the following projects:
 ## Firmware updates
 
 The firmware will be updated on every push to the main branch. Just click on the batch above, select the latest build and download the firmware artifact.
+Or just execute the convenience script to download the new firmware:
+
+```bash
+$ scripts/download_release.sh
+```
 
 ## ToDo
 

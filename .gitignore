@@ -1,1 +1,4 @@
 .DS_Store
+
+# The downloaded artifacts from the githup workflow
+download/
