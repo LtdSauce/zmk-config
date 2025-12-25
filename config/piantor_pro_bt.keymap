@@ -69,7 +69,7 @@
             bindings = <
                 &trans &kp  Q      &kp  W      &kp  F       &kp  P       &kp B     /**/ &kp J      &kp  L         &kp  U        &kp  DE_Y     &trans        &trans
                 &trans &hml LGUI A &hml LALT R &hml LCTRL S &hml LSHFT T &kp G     /**/ &kp M      &hmr LSHFT N   &hmr LCTRL E  &hmr LALT I   &hmr LGUI O   &trans
-                &trans &kp  DE_Z   &hml RALT X &kp  C       &kp  D       &kp V     /**/ &kp K      &kp  H         &kp  COMMA    &hmr RALT DOT &hmr 7        &trans
+                &trans &kp  DE_Z   &hml RALT X &kp  C       &kp  D       &kp V     /**/ &kp K      &kp  H         &kp  COMMA    &hmr RALT DOT &mo  7        &trans
                                                &lt 3 ESC    &lt 1 SPACE  &lt 2 TAB /**/ &lt 5 RET  &lt 4 BSPC     &lt 6 DEL
             >;
         };
