@@ -16,7 +16,7 @@ This layout is highly influenced by the following projects:
 
 - [miryoku_zmk](https://github.com/manna-harbour/miryoku_zmk) - this was atcually kind of the start of my layout
 - [neo](https://www.neo-layout.org/) - i disliked how miryoku organized the symbols, so i replaced my symbol layer with layer 3 of the neo layouts
-- [urob](https://github.com/urob/zmk-config) - as my layout worked on the moonlander but i had constant misfires of my homerow mods and also the thumb keys, i applied the "timeless homerow mods" from this project to solve this (🚧 TODO 🚧 This is not done and i plan to not use their macros but try to go vanilla zmk...)
+- [urob](https://github.com/urob/zmk-config) - as my layout worked on the moonlander but i had constant misfires of my homerow mods and also the thumb keys, i applied the "timeless homerow mods" from them to solve this (actually used https://zmk.dev/docs/keymaps/behaviors/hold-tap?examples=home_row_mods#quick-tap-ms as it was "pure")
 
 ## Firmware updates
 
@@ -41,5 +41,5 @@ Currently my daily driver is a ZSA Moonlander from which i need to transfer the 
 - [x] Make firmware building succeed again
 - [x] Make https://nickcoutsos.github.io/keymap-editor/ work again (without) keeping duplicate files
 - [x] Add bt layer switch...
-- [ ] apply urobs timeless homerow mods
+- [x] apply urobs timeless homerow mods
 - [ ] check if more of urob should be applied
