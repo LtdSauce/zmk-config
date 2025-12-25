@@ -10,6 +10,14 @@ This is my custom ZMK config for my [piantor pro](https://www.keebart.com/de/pro
 The configuration was initially based on ideas i got from COLEMAK-DH and the Miryoku layout. But i heavily
 modified the symbols layer to my needs. Also some custom layers for games and a german umlauts layer are featured.
 
+## Credits
+
+This layout is highly influenced by the following projects:
+
+- [miryoku_zmk](https://github.com/manna-harbour/miryoku_zmk) - this was atcually kind of the start of my layout
+- [neo](https://www.neo-layout.org/) - i disliked how miryoku organized the symbols, so i replaced my symbol layer with layer 3 of the neo layouts
+- [urob](https://github.com/urob/zmk-config) - as my layout worked on the moonlander but i had constant misfires of my homerow mods and also the thumb keys, i applied the "timeless homerow mods" from this project to solve this (🚧 TODO 🚧 This is not done and i plan to not use their macros but try to go vanilla zmk...)
+
 ## Firmware updates
 
 The firmware will be updated on every push to the main branch. Just click on the batch above, select the latest build and download the firmware artifact.
@@ -33,3 +41,5 @@ Currently my daily driver is a ZSA Moonlander from which i need to transfer the 
 - [x] Make firmware building succeed again
 - [x] Make https://nickcoutsos.github.io/keymap-editor/ work again (without) keeping duplicate files
 - [x] Add bt layer switch...
+- [ ] apply urobs timeless homerow mods
+- [ ] check if more of urob should be applied
