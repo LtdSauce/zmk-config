@@ -24,7 +24,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        default_layer_0 {
             display-name = "COLEMAK";
             bindings = <
                 &trans &kp Q      &kp W      &kp F       &kp P        &kp B     /**/ &kp J      &kp L          &kp U          &kp DE_Y     &trans          &trans
@@ -34,7 +34,7 @@
             >;
         };
 
-        navigation_layer {
+        navigation_layer_1 {
             display-name = "NAV";
             bindings = <
                 // TODO: should i rather use C_REDO etc?
@@ -45,7 +45,7 @@
             >;
         };
         // not sure if this is still needed... used veeeeery infrequently
-        mouse_layer {
+        mouse_layer_2 {
             display-name = "MOUSE";
             bindings = <
                 &trans &none     &none       &none       &none        &none     /**/ &kp K_REDO &kp  K_PASTE   &kp  K_COPY    &kp  K_CUT   &kp  K_UNDO     &trans
@@ -55,7 +55,7 @@
             >;
         };
 
-        media_layer {
+        media_layer_3 {
             display-name = "MEDIA";
             bindings = <
                 &trans &none        &none        &none        &none        &none          /**/ &rgb_ug RGB_TOG &rgb_ug RGB_EFF   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI &rgb_ug RGB_BRI &trans
@@ -65,7 +65,7 @@
             >;
         };
 
-        numbers_layer {
+        numbers_layer_4 {
             display-name = "NUMBER";
             bindings = <
                 &trans &kp DE_HASH &kp N7  &kp N8  &kp N9  &kp DE_STAR  /**/ &none &none     &none     &none    &none    &trans
@@ -75,7 +75,7 @@
             >;
         };
 
-        symbols_layer {
+        symbols_layer_5 {
             display-name = "SYMBOL";
             bindings = <
                 // XXX: unverified keymaps just hoped for the best after converting
@@ -86,7 +86,7 @@
             >;
         };
 
-        function_layer {
+        function_layer_6 {
             display-name = "FN_KEYS";
             bindings = <
                 &trans &kp F12 &kp F7 &kp F8 &kp F9 &kp PRINTSCREEN /**/ &none &none     &none &none &bootloader &trans
@@ -96,7 +96,7 @@
             >;
         };
 
-        umlaute_layer {
+        umlaute_layer_7 {
             display-name = "UMLAUT"; // quick access to umlauts and vim hjkl binding
             bindings = <
                 &trans &trans &trans &trans &trans &trans                        /**/ &trans &trans &trans &trans &trans &trans
@@ -105,7 +105,7 @@
                                      &trans &trans &trans                        /**/ &trans &trans &trans
             >;
         };
-        factorio_case {
+        factorio_case_8 {
             // TODO: maybe those layers need to be revised!
             display-name = "FACTORIO";
             bindings = <
@@ -115,7 +115,7 @@
                               &kp LSHFT &kp SPACE &kp LCTRL /**/ &trans &trans &trans
             >;
         };
-        factorio_ext {
+        factorio_ext_9 {
             display-name = "FACTORIO_EXT";
             bindings = <
                 &trans &trans &kp T   &kp P     &kp M       &kp ESC      /**/ &trans &trans &trans &trans &trans &trans
