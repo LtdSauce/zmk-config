@@ -47,4 +47,5 @@ Currently my daily driver is a ZSA Moonlander from which i need to transfer the 
 - [x] Make https://nickcoutsos.github.io/keymap-editor/ work again (without) keeping duplicate files
 - [x] Add bt layer switch...
 - [x] apply urobs timeless homerow mods
+  - [ ] make shifting more intuitive again
 - [ ] check if more of urob should be applied
