@@ -110,7 +110,7 @@
             display-name = "FACTORIO";
             bindings = <
                 &kp ESC  &kp F &kp C &kp W &kp E   &kp DE_Z /**/ &trans &trans &trans &trans &trans &trans
-                &mo 10   &kp Q &kp A &kp S &kp D   &kp B    /**/ &trans &trans &trans &trans &trans &trans
+                &mo 9    &kp Q &kp A &kp S &kp D   &kp B    /**/ &trans &trans &trans &trans &trans &trans
                 &kp LALT &kp L &kp H &kp V &kp RET &kp G    /**/ &trans &trans &trans &trans &trans &trans
                               &kp LSHFT &kp SPACE &kp LCTRL /**/ &trans &trans &trans
             >;
